@@ -33,37 +33,36 @@
 - How to copy ssh keys to managed nodes
 - How to test connectivity to managed nodes using ssh keys.
 
-## 3. Adhoc commands and Ansible modules:
-**a) Adhoc commands?**
+## 3. Adhoc commands 
 - What are adhoc commands?
 - Examples of adhoc commands
 - Using custom inventory files
 - Using verbosity ( - v)
 
-**b) Ansible modules?**
+## 4. Ansible modules
 - What are modules
 - What are the default ansible modules?
 - Examples of ansible modules
 - Available modules
 
-## 4. Ansible playbooks
+## 5. Ansible playbooks
 - What is an ansible playbook?
 - How to write a playbook
 - Examples of playbooks
 - Using handlers
 
-## 5. Ansible roles
+## 6. Ansible roles
 - What is an ansible roles?
 - How to create ansible roles
 - How to use roles in playbooks
 - Using import and include modules
 
-## 6.) Dynamic Inventory
+## 7.) Dynamic Inventory
 - Static inventories
 - Dynamic inventory scripts
 - Dynamic inventory plugin
 
-## 7. Ansible Vault
+## 8. Ansible Vault
 - creating encrypted files
 - encrypting existing files
 - viewing content of encrypted files
