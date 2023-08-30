@@ -52,17 +52,22 @@
 - Examples of playbooks
 - Using handlers
 
-## 5. Ansible roles and Dynamic Inventory
+## 5. Ansible roles 
 **a) Ansible role**
 - What are roles?
 - How to create ansible roles
 - How to use roles in playbooks
-- How to reference variables from lists and maps
-- Variable files
+- Using import and include modules
 
-**b) Dynamic Inventory**
-- What are data sources
-- How are data sources used?
+## 6.) Dynamic Inventory
+- Static inventories
+- Dynamic inventory scripts
+- Dynamic inventory plugin
 
 ## 6. Ansible Vault
+- creating encrypted files
+- encrypting existing files
+- viewing content of encrypted files
+- editing an encrypted file
+- decrypting encrypted files
 
