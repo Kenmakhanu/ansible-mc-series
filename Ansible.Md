@@ -52,9 +52,8 @@
 - Examples of playbooks
 - Using handlers
 
-## 5. Ansible roles 
-**a) Ansible role**
-- What are roles?
+## 5. Ansible roles
+- What is an ansible roles?
 - How to create ansible roles
 - How to use roles in playbooks
 - Using import and include modules
