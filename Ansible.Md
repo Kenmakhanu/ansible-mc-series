@@ -64,7 +64,7 @@
 - Dynamic inventory scripts
 - Dynamic inventory plugin
 
-## 6. Ansible Vault
+## 7. Ansible Vault
 - creating encrypted files
 - encrypting existing files
 - viewing content of encrypted files
