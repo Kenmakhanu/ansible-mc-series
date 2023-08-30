@@ -10,16 +10,6 @@ resource "aws_instance" "ubuntu" {
   }
 }
 
-/*resource "aws_instance" "rhel" {
-  ami           = data.aws_ami.rhel.id
-  instance_type = var.my_instance_type
-  user_data     = file("${path.module}/ansible-install-rhel.sh")
-  key_name      = var.my_key
-
-  tags = {
-    "Name" = "Ansible-rhel8"
-  }
-}*/
 
 resource "aws_instance" "ubuntu-hosts" {
   ami           = data.aws_ami.ubuntu.id
@@ -33,7 +23,7 @@ resource "aws_instance" "ubuntu-hosts" {
   }
 }
 
-/*resource "aws_instance" "rhel-hosts" {
+resource "aws_instance" "rhel-hosts" {
   ami           = data.aws_ami.rhel.id
   instance_type = var.my_instance_type
   user_data     = file("${path.module}/create_ansible_user.sh")
@@ -44,11 +34,4 @@ resource "aws_instance" "ubuntu-hosts" {
   }
 }
 
-resource "aws_instance" "example" {
-  instance_type = "t2.micro"
-  ami           = "ami-01f87c43e618bf8f0"
-  key_name      = var.my_key
-  tags = {
-    "Name" = "Gitserver"
-  }
-}*/
+
