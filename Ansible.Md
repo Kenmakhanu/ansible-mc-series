@@ -23,7 +23,12 @@
 - Enabling password authentication on manged nodes
 - Testing connectivity with user using password
 
-**b) Passwordless Authentication:**
+**b) Ansible variables**
+- default variables
+- host variables
+- group variables
+
+**c) Passwordless Authentication:**
 - How to create ssh keys
 - How to copy ssh keys to managed nodes
 - How to test connectivity to managed nodes using ssh keys.
