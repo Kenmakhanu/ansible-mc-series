@@ -6,6 +6,7 @@
 3. Create .ssh directory in the home of ansible
    
         $ sudo mkdir .ssh
+        $ sudo chown -R ansible:ansible .ssh/
 4. Copy the authorized keys from the home of ubuntu to the home of ansible
   - cd into the .ssh directory and run the command below.
 
@@ -14,6 +15,9 @@
   - Change ownership of the key to ansible
 
          $ sudo chown ansible:ansible authorized_keys
+5. Also change the ownership of /etc/ansible from root to ansible
+
+        $ sudo chown -R ansible:ansible /etc/ansible
 4. Install vscode on ubuntu using the script below.
 ```   
    sudo apt update
