@@ -2,7 +2,7 @@
 - Launch/select required no of servers (managed nodes)
 - Use a key-pair to associate with your servers.
 - Log into your ansible control node using the key.pem that  was downloaded 
-- Make sure that you change the key permissions to 400
+- Make sure that you change the key permissions to 400 if using MacOS or Linux system.
 ```
    $ chmod 400 ansible-key.pem
    $ ssh -i "ansible-key.pem" ubuntu@ec2-54-151-14-195.us-west-1.compute.amazonaws.com
