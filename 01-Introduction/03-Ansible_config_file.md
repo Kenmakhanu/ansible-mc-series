@@ -29,4 +29,6 @@ and for this there is a priority for this files.
 - This feature is by default set to true in the ansible.cfg file
 - Disable this by uncommenting the line in the configuration file or you can also export an environmental variable using the command below.
 
+       host_key_checking = False
+               or
       $ export ANSIBLE_HOST_KEY_CHECKING=false
