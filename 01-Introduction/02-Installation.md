@@ -9,7 +9,8 @@ have python2 or python3 installed on them.
     - Using yum or apt
     - Using pip
     - Using compile file
-https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
+  
+    https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
 
 **Installing Ansible on Ubuntu**
 ```
