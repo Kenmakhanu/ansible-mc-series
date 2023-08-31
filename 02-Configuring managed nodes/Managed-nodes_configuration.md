@@ -14,7 +14,7 @@
 - We can create SSH Connection in two ways:
      - a) Password Authentication
      - b) Password-less Authentication(This is with SSH Keys)
-- Provide the managed Nodes IP/FQDN in inventory file on Ansible Engine.
+- Provide the managed Nodes IP/FQDN in inventory file (hosts file) on Ansible Engine.
 - Test the connectivity by running:
 
       $ ansible all -m ping
