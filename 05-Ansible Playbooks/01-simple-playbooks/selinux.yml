@@ -10,4 +10,4 @@
            path: /etc/selinux/config
            regexp: '^SELINUX='
            line: 'SELINUX={{ status }}'
-     - name: change directory
+     
