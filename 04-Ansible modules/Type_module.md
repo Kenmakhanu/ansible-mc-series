@@ -70,6 +70,7 @@ a) From ansible control node to remote node \
 ## **8. User Module**
  - Used to create user accounts.
  - Create a password encryption
+ - Generate the password from your local environment
 
  **$ openssl passwd -crypt <desired_password>**
 

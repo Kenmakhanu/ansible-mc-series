@@ -7,9 +7,11 @@
     - orchestrate steps of any manual ordered process, on multiple sets of machines, in a defined order
     - launch tasks synchronously or asynchronously
 
-- Playbooks record and execute Ansible’s configuration, deployment, and orchestration functions. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+- Playbooks record and execute Ansible’s configuration, deployment, and orchestration functions. 
+- They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
 - If Ansible modules are the tools in your workshop, playbooks are your instruction manuals, and your inventory of hosts are your raw material.
-- At a basic level, playbooks can be used to manage configurations of and deployments to remote machines. At a more advanced level, they can sequence multi-tier rollouts involving rolling updates, and can delegate actions to other hosts, interacting with monitoring servers and load balancers along the way.
+- At a basic level, playbooks can be used to manage configurations of and deployments to remote machines. At a more advanced level, they can sequence multi-tier rollouts involving rolling updates,
+  and can delegate actions to other hosts, interacting with monitoring servers and load balancers along the way.
 - Playbooks are designed to be human-readable and are developed in a basic text language. There are multiple ways to organize playbooks and the files they include.
 
 **Playbook syntax**
@@ -25,9 +27,11 @@
 
 **Ansible task execution**
 
-- By default, Ansible executes each task in order, one at a time, against all machines matched by the host pattern. Each task executes a module with specific arguments. When a task has executed on all target machines, Ansible moves on to the next task.
+- By default, Ansible executes each task in order, one at a time, against all machines matched by the host pattern. 
+- Each task executes a module with specific arguments. When a task has executed on all target machines, Ansible moves on to the next task.
 - When you run a playbook, Ansible returns information about connections, the name lines of all your plays and tasks, whether each task has succeeded or failed on each machine, and whether each task has made a change on each machine. 
-- At the bottom of the playbook execution, Ansible provides a summary of the nodes that were targeted and how they performed. General failures and fatal “unreachable” communication attempts are kept separate in the counts.
+- At the bottom of the playbook execution, Ansible provides a summary of the nodes that were targeted and how they performed. 
+- General failures and fatal “unreachable” communication attempts are kept separate in the counts.
 
    **Desired state and ‘idempotency’**
 
@@ -36,8 +40,9 @@
 
 **Yaml basics**
 
-
-- For Ansible, nearly every YAML file starts with a list. Each item in the list is a list of key/value pairs, commonly called a “hash” or a “dictionary”. So, we need to know how to write lists and dictionaries in YAML.
+- For Ansible, nearly every YAML file starts with a list. 
+- Each item in the list is a list of key/value pairs, commonly called a “hash” or a “dictionary”. 
+- So, we need to know how to write lists and dictionaries in YAML.
 - All YAML files can optionally begin with --- and end with ... . This is part of the YAML format and indicates the start and end of a document.
 - All members of a list are lines beginning at the same indentation level starting with a "- " (a dash and a space):
 ```
