@@ -6,12 +6,12 @@
 ...
 
 ---
- - name: httpd
+ - name: apache2
    host: db
    tasks:
-   - name: Install httpd
+   - name: Install apache2
      apt:
-      name: httpd
+      name: apache2
       state: present
    - name: Install wget
      apt:
