@@ -2,6 +2,13 @@
 
 - Roles let you automatically load related vars,files,tasks, handlers, and other known Ansible artifacts based on a known file structure.
 - After you group your content in roles, you can easily reuse them and share them with other users.
+**How to create an Ansible Role**
+- You can create an ansible role by running the command below.
+
+      $ ansible-galaxy init httpd --offline
+- We need to pass the --offline option so that ansible does now initialize the role from the ansible registry. 
+- This is done when we want to create a custom role.
+- After you initialize the role, cd into the various directories and vi into the main.yml file to enter the content.
 
 **Role directory structure**
 - An Ansible role has a defined directory structure with eight main standard directories.

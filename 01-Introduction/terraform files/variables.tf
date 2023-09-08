@@ -13,7 +13,7 @@ variable "my_key" {
   default = "ansible-key"
 }
 
-#sudo su - ansible
-#chown -R ansible:ansible /etc/ansible
-
-
+variable "os" {
+  type = string
+  default = "linux"
+}
